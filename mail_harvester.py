@@ -6,6 +6,9 @@ import urllib.parse
 from collections import deque
 import re 
 
+# Ensure that all modules are installed before running the tool. 
+# Just do pip3 install <module_name>
+
 user_url = str(input("[+] Enter target URL to scan for emails: "))
 urls = deque([user_url])
 
